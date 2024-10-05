@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#083c5d"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textLogin"
+        android:hint="@string/username"
+        android:textSize="24sp"
+        android:layout_above="@+id/passwordText"
+        android:padding="5dp"
+        android:background="#ffbb39"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/passwordText"
+        android:hint="@string/password"
+        android:textSize="24sp"
+        android:padding="5dp"
+        android:layout_above="@+id/signupButton"
+        android:background="#ffbb39"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupButton"
+        android:layout_centerVertical="true"
+        android:backgroundTint="#1d2731"
+        android:text="@string/signup"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logText"
+        android:layout_below="@+id/signupButton"
+        android:text="@string/existing_user_login_here"
+        android:textColor="#ffbb39"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>

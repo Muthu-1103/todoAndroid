@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TODOASSIGNMENT</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_user_register_here">New User? Register Here</string>
+    <string name="existing_user_login_here">Existing User... Login Here</string>
+    <string name="signup">Signup</string>
+    <string name="logout">Logout</string>
+    <string name="to_do_app">To Do App</string>
+    <string name="to_do_tasks">To Do Tasks</string>
+</resources>
